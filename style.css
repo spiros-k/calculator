@@ -1,0 +1,42 @@
+
+body{
+    align-items: center;
+    background-color: honeydew;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    margin: 10% auto 20% auto;
+    text-align: center;
+    width: 100%;
+}
+
+div{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(5, 1fr);
+    
+    width: 75%;
+}
+
+button{
+    border: solid honeydew 1px;
+    border-radius: 5.75px;
+    background-color: bisque;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.25rem;
+    height: 75px;
+}
+
+h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.35rem;
+    width: 75%;
+}
+
+.hidden{
+    visibility: hidden;
+}
