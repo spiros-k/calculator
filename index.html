@@ -9,26 +9,31 @@
     <body>
         <h1>Calculate anything in no time! 🧮</h1>
         <div>
-            <button class="number-one">1</button>
-            <button class="number-two">2</button>
-            <button class="number-three">3</button>
-            <button class="number-four">4</button>
-            <button class="number-five">5</button>
-            <button class="number-six">6</button>
-            <button class="number-seven">7</button>
-            <button class="number-eight">8</button>
-            <button class="number-nine">9</button>
-            <button class="number-zero">0</button>
+            <button class="number-one" id="numberone">1</button>
+            <button class="number-two" id="numbertwo">2</button>
+            <button class="number-three" id="numberthree">3</button>
+            <button class="number-four" id="numberfour">4</button>
+            <button class="number-five" id="numberfive">5</button>
+            <button class="number-six" id="numbersix">6</button>
+            <button class="number-seven" id="numberseven">7</button>
+            <button class="number-eight" id="numbereight">8</button>
+            <button class="number-nine" id="numbernine">9</button>
+            <button class="number-zero" id="numberzero">0</button>
 
-            <button id="plus">+</button>
-            <button id="minus">-</button>
-            <button id="times">*</button>
-            <button id="divide">/</button>
+            <button class="calc" id="plus">+</button>
+            <button class="calc" id="minus">-</button>
+            <button class="calc" id="times">*</button>
+            <button class="calc" id="divide">/</button>
             <button id="equal">=</button>
         </div>
         <br>
-        <h3>Result:</h3>
-
+        <div class="results">
+            <h3 class="firstNumber"></h3>
+            <h3 class="calculation"></h3>
+            <h3 class="secondNumber"></h3>
+            <h3 class="result"></h3>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
         <script src="./index.js"></script>
     </body>
 </html>
